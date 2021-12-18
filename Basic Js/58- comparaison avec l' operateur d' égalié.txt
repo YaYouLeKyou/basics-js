@@ -1,0 +1,32 @@
+// Setup
+function testEqual(val) {
+  if (val==12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
+
+------------------cour--------------------
+
+
+
+Il existe de nombreux opérateurs de comparaison en JavaScript. Tous ces opérateurs renvoient une booléenne trueou falsevaleur .
+
+L'opérateur le plus basique est l'opérateur d'égalité ==. L'opérateur d'égalité compare deux valeurs et renvoie truesi elles sont équivalentes ou falsesi elles ne le sont pas. Notez que l'égalité est différente de affectation ( =), qui affecte la valeur à droite de l'opérateur à une variable à gauche.
+
+function equalityTest(myVal) {
+  if (myVal == 10) {
+     return "Equal";
+  }
+  return "Not Equal";
+}
+
+Si myValest égal à 10, l'opérateur d'égalité retourne true, donc le code entre accolades s'exécutera et la fonction retournera "Equal". Sinon, la fonction retournera "Not Equal". Pour que JavaScript puisse comparer deux types de données différents (par exemple, numberset strings), il doit convertir un type en un autre. Ceci est connu sous le nom de «coercition de type». Une fois qu'il le fait, cependant, il peut comparer les termes comme suit:
+
+1   ==  1   // true
+1   ==  2   // false
+1   == '1'  // true
+"3" ==  3   // true
+

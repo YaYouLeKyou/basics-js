@@ -1,0 +1,21 @@
+// Setup
+var myArray = [50,60,70];
+myArray[0];
+var myData = myArray[0]
+ 
+// Only change code below this line
+------------------cour------------------
+
+
+Nous pouvons accéder aux données à l'intérieur des tableaux en utilisant des index .
+
+Les index de tableau sont écrits dans la même notation entre crochets que les chaînes, sauf qu'au lieu de spécifier un caractère, ils spécifient une entrée dans le tableau. Comme les chaînes, les tableaux utilisent l' base zéro indexation de , de sorte que le premier élément d'un tableau a un index de 0.
+
+Exemple
+
+var array = [50,60,70];
+array[0]; // equals 50
+var data = array[1];  // equals 60
+
+Remarque
+Il ne devrait y avoir aucun espace entre le nom du tableau et les crochets, comme array [0]. Bien que JavaScript soit capable de traiter cela correctement, cela peut dérouter les autres programmeurs qui lisent votre code.

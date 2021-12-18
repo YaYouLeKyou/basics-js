@@ -1,0 +1,24 @@
+// Only change code below this line
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
+
+console.log(myStr);
+
+-------------------------cour-------------------------
+
+Nous pouvons également utiliser l'opérateur + = pour concaténer une chaîne à la fin d'une variable chaîne existante. 
+Cela peut être très utile pour couper une longue chaîne sur plusieurs lignes.
+
+Remarque
+
+Attention aux espaces. La concaténation n'ajoute pas d'espaces entre les chaînes concaténées, 
+vous devrez donc les ajouter vous-même.
+
+Exemple:
+
+var ourStr = "Je viens en premier.";
+
+ourStr + = "Je viens deuxième.";
+
+// ourStr est maintenant "Je viens en premier. Je viens en second.

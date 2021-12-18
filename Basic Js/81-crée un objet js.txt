@@ -1,0 +1,41 @@
+var myDog = {
+// Only change code below this line
+"name": "Pluto",
+"legs": 4,
+"tails": 1,
+"friends": ["Mickey", "Minny"]
+
+// Only change code above this line
+};
+
+----------------cour---------------------
+
+
+
+Vous avez peut-être déjà entendu le terme object.
+
+Les objets sont similaires à arrays, sauf qu'au lieu d'utiliser des index pour accéder et modifier leurs données, 
+vous accédez aux données dans les objets via ce que l'on appelle properties.
+
+Les objets sont utiles pour stocker des données de manière structurée et peuvent représenter des objets du monde réel, comme un chat.
+
+Voici un exemple d'objet chat:
+
+var cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+
+Dans cet exemple, toutes les propriétés sont stockées sous forme chaînes, 
+telles que - "name", "legs"et "tails". Cependant, vous pouvez également utiliser des nombres comme propriétés. 
+Vous pouvez même omettre les guillemets pour les propriétés de chaîne d'un seul mot, comme suit:
+
+var anotherObject = {
+  make: "Ford",
+  5: "five",
+  "model": "focus"
+};
+
+Cependant, si votre objet a des propriétés non-chaîne, JavaScript les transposera automatiquement sous forme de chaînes.

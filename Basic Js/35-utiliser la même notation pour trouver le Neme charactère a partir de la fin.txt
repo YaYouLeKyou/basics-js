@@ -1,0 +1,15 @@
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+--------------cour---------------------
+Vous pouvez utiliser le même principe que nous venons d'utiliser pour récupérer le dernier caractère d'une chaîne afin de récupérer le Nième au dernier caractère.
+
+Par exemple, vous pouvez obtenir la valeur de la troisième à la dernière lettre de la var firstName = "Charles"chaîne en utilisant firstName[firstName.length - 3]
+
+Exemple:
+
+var firstName = "Charles";
+var thirdToLastLetter = firstName[firstName.le

@@ -1,0 +1,23 @@
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+ if ( obj.hasOwnProperty(checkProp)){return obj[checkProp]}else{return "Not Found"}
+  // Only change code above this line
+}
+
+---------------------cour------------------------
+
+
+
+Parfois, il est utile de vérifier si la propriété d'un objet donné existe ou non. 
+Nous pouvons utiliser la .hasOwnProperty(propname)méthode des objets pour déterminer 
+si cet objet a le nom de propriété donné. .hasOwnProperty() retourne trueo u false si la propriété est trouvée ou non.
+
+Exemple
+
+var myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+myObj.hasOwnProperty("top");    // true
+myObj.hasOwnProperty("middle"); // false
+

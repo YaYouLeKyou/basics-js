@@ -1,0 +1,48 @@
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+switch(val) {
+  case 1:
+  return "alpha";
+  break;
+  case 2:
+  return "beta"
+  break;
+  case 3:
+  return "gamma"
+  break;
+  case 4:
+  return "delta"
+  break;
+
+}
+
+
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch(1);
+console.log(caseInSwitch(1));
+
+---------------cour----------------------
+
+
+
+Si vous avez le choix entre de nombreuses options, utilisez une switch instruction . 
+Une switchinstruction teste une valeur et peut avoir de nombreuses case instructions qui définissent diverses valeurs possibles. 
+Les instructions sont exécutées à partir de la première correspondante casevaleur jusqu'à ce que a breaksoit rencontré.
+
+Voici un exemple de switchdéclaration:
+
+switch(lowercaseLetter) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
+}
+
+caseles valeurs sont testées avec une stricte égalité ( ===). 
+Le break dit à JavaScript d'arrêter d'exécuter les instructions. Si le break est omis, l'instruction suivante sera exécutée.

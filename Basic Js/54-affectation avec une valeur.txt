@@ -1,0 +1,24 @@
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
+console.log(processed)
+
+------------------cour---------------------
+
+
+
+Si vous vous souvenez de notre discussion sur le stockage des valeurs avec l'opérateur d'affectation , 
+tout ce qui se trouve à droite du signe égal est résolu avant que la valeur ne soit attribuée. 
+Cela signifie que nous pouvons prendre la valeur de retour d'une fonction et l'affecter à une variable.
+
+Supposons que nous ayons prédéfini une fonction sumqui ajoute deux nombres ensemble, alors:
+
+ourSum = sum(5, 12);
+
+appellera sumfunction, qui renvoie une valeur de 17et l'assigne à ourSumvariable.

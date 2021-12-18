@@ -1,0 +1,41 @@
+// Setup
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+delete myDog.tails
+console.log(myDog)
+// Only change code below this line
+
+--------------cour-----------------------
+
+
+
+Nous pouvons également supprimer des propriétés d'objets comme celui-ci:
+
+delete ourDog.bark;
+
+Exemple:
+
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.bark;
+
+Après la dernière ligne montrée ci-dessus, ourDogressemble à:
+
+{
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+}
+

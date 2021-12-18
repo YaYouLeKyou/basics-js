@@ -1,0 +1,28 @@
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
+
+console.log(testNotEqual())
+
+------------------cour----------------------
+
+
+
+L'opérateur d'inégalité ( !=) est l'opposé de l'opérateur d'égalité. 
+Cela signifie «pas égal» et renvoie falselà où l'égalité reviendrait trueet vice versa . 
+Comme l'opérateur d'égalité, l'opérateur d'inégalité convertira les types de données des valeurs lors de la comparaison.
+
+Exemples
+
+1 !=  2     // true
+1 != "1"    // false
+1 != '1'    // false
+1 != true   // false
+0 != false  // false
+

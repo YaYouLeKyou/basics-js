@@ -1,0 +1,31 @@
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+----------Cour--------------------
+En JavaScript, toutes les variables et les noms de fonctions sont sensibles à la casse. 
+Cela signifie que la capitalisation est importante.
+
+MYVAR n'est pas le même que MyVar ni myvar. 
+Il est possible d'avoir plusieurs variables distinctes avec le même nom mais une casse différente. 
+Il est fortement recommandé, par souci de clarté, de ne pas utiliser cette fonctionnalité de langage.
+
+Meilleur entrainement
+
+Écrivez les noms de variables en JavaScript dans camelCase. 
+Dans camelCase, les noms de variables à plusieurs mots ont le premier mot en minuscule 
+et la première lettre de chaque mot suivant est en majuscule.
+
+Exemples:
+
+var someVariable;
+
+var anotherVariableName;
+
+var thisVariableNameIsSoLong;

@@ -1,0 +1,42 @@
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+
+var playerNumber=16;       // Change this line
+var player = testObj[playerNumber];   // Change this line
+console.log(player)
+
+-------------------cour----------------------------
+
+
+
+Une autre utilisation de la notation entre crochets sur les objets consiste à accéder à une propriété qui est stockée en tant que valeur d'une variable. 
+Cela peut être très utile pour parcourir les propriétés d'un objet ou pour accéder à une table de recherche.
+
+Voici un exemple d'utilisation d'une variable pour accéder à une propriété:
+
+var dogs = {
+  Fido: "Mutt",  Hunter: "Doberman",  Snoopie: "Beagle"
+};
+var myDog = "Hunter";
+var myBreed = dogs[myDog];
+console.log(myBreed); // "Doberman"
+
+Une autre façon d'utiliser ce concept est lorsque le nom de la propriété est collecté dynamiquement lors de l'exécution du programme, comme suit:
+
+var someObj = {
+  propName: "John"
+};
+function propPrefix(str) {
+  var s = "prop";
+  return s + str;
+}
+var someProp = propPrefix("Name"); // someProp now holds the value 'propName'
+console.log(someObj[someProp]); // "John"
+
+Notez que nous n'utilisons pas de guillemets autour du nom de la variable lorsque nous l'utilisons pour accéder à la propriété car nous utilisons la valeur de la variable, pas le nom .

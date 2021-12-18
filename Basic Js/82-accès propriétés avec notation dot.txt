@@ -1,0 +1,30 @@
+// Setup
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+
+var hatValue = testObj.hat;      // Change this line
+var shirtValue = testObj.shirt;    // Change this line
+
+------------------cour------------------------------
+
+
+
+Il existe deux façons d'accéder aux propriétés d'un objet: la notation par points ( .) et la notation entre crochets ( []), 
+similaire à un tableau.
+
+La notation par points est ce que vous utilisez lorsque vous connaissez le nom de la propriété à laquelle vous essayez d'accéder à l'avance.
+
+Voici un exemple d'utilisation de la notation par points ( .) pour lire la propriété d'un objet:
+
+var myObj = {
+  prop1: "val1",
+  prop2: "val2"
+};
+var prop1val = myObj.prop1; // val1
+var prop2val = myObj.prop2; // val2
+

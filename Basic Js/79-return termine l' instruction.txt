@@ -1,0 +1,34 @@
+// Setup
+function abTest(a, b) {
+  // Only change code below this line
+if (a<0 || b<0){
+  return undefined
+}
+
+
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+console.log(abTest())
+
+-------------------------cour-------------------------------------
+
+
+
+Lorsqu'une instruction return est atteinte, 
+l'exécution de la fonction en cours s'arrête et le contrôle revient à l'emplacement appelant.
+
+Exemple
+
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+myFun();
+
+La commande ci-dessus renvoie "Hello" à la console, "World" est renvoyé, mais "byebye" n'est jamais sortie, 
+car la fonction se termine à l'instruction "return".

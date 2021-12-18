@@ -1,0 +1,32 @@
+function testElse(val) {
+  var result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+
+  else  {
+    result = "5 or Smaller";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+
+-----------------cour---------------
+
+
+
+Lorsqu'une condition pour une ifinstruction est vraie, le bloc de code qui la suit est exécuté. 
+Et quand cette condition est fausse? Normalement, rien ne se passerait. 
+Avec une elseinstruction, un autre bloc de code peut être exécuté.
+
+if (num > 10) {
+  return "Bigger than 10";
+} else {
+  return "10 or Less";
+}
+

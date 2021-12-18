@@ -1,0 +1,20 @@
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+var removedFromMyArray = myArray.shift();
+
+--------------cour------------------------
+
+
+
+pop()supprime toujours le dernier élément d'un tableau. Et si vous souhaitez supprimer le premier?
+
+C'est là .shift()qu'intervient. Cela fonctionne comme .pop(), sauf qu'il supprime le premier élément au lieu du dernier.
+
+Exemple:
+
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
+

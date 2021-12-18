@@ -1,0 +1,20 @@
+function reusableFunction(){
+    console.log("Hi World");
+}
+reusableFunction()
+
+-------------cour--------------------
+
+
+
+En JavaScript, nous pouvons diviser notre code en parties réutilisables appelées fonctions .
+
+Voici un exemple de fonction:
+
+function functionName() {
+  console.log("Hello World");
+}
+
+Vous pouvez appeler ou invoquer cette fonction en utilisant son nom suivi de parenthèses, comme ceci: functionName();
+Chaque fois que la fonction est appelée, elle affichera le message "Hello World"sur la console de développement. 
+Tout le code entre les accolades sera exécuté à chaque fois que la fonction est appelée.

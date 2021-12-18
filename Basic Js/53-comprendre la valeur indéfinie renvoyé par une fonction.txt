@@ -1,0 +1,34 @@
+// Setup
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive() {
+  sum = sum + 5;
+};
+// Only change code above this line
+
+addThree();
+addFive();
+
+------------------------cour------------------------
+
+
+
+Une fonction peut inclure l' returninstruction, mais ce n'est pas obligatoire. 
+Dans le cas où la fonction n'a pas d' returninstruction, lorsque vous l'appelez, la fonction traite le code interne mais la valeur renvoyée l'est undefined.
+
+Exemple
+
+var sum = 0;
+function addSum(num) {
+  sum = sum + num;
+}
+addSum(3); // sum will be modified but returned value is undefined
+
+addSumest une fonction sans returninstruction. 
+La fonction changera la globale sumvariable mais la valeur retournée de la fonction est undefined.

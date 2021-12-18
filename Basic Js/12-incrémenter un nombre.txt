@@ -1,0 +1,17 @@
+var myVar = 87;
+
+// Only change code below this line
+myVar++;
+
+-----------cour---------------------
+Vous pouvez facilement incrémenter ou en ajouter un à une variable avec l'opérateur ++.
+
+i ++;
+
+est l'équivalent de
+
+i = i + 1;
+
+Remarque
+
+La ligne entière devient i ++ ;, éliminant le besoin du signe égal.

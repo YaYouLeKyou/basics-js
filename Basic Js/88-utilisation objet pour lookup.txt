@@ -1,0 +1,47 @@
+// Setup
+function phoneticLookup(val) {
+  var result = "";
+
+  // Only change code below this line
+   var lookup ={
+
+    "alpha":"Adams",
+    "bravo":"Boston",
+    "charlie":"Chicago",
+    "delta":"Denver",
+    "echo":"Easy",
+    "foxtrot":"Frank",
+  };
+  result = lookup[val];
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+
+-----------------cour------------------------------
+
+
+
+Les objets peuvent être considérés comme un stockage clé / valeur, comme un dictionnaire. 
+Si vous avez des données tabulaires, vous pouvez utiliser un objet pour «rechercher» des valeurs plutôt qu'une switchinstruction ou une if/elsechaîne. 
+Ceci est particulièrement utile lorsque vous savez que vos données d'entrée sont limitées à une certaine plage.
+
+Voici un exemple d'une simple recherche d'alphabet inversé:
+
+var alpha = {
+  1:"Z",
+  2:"Y",
+  3:"X",
+  4:"W",
+  ...
+  24:"C",
+  25:"B",
+  26:"A"
+};
+alpha[2]; // "Y"
+alpha[24]; // "C"
+
+var value = 2;
+alpha[value]; // "Y"
+

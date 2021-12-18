@@ -1,0 +1,35 @@
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+--------------cour--------------------------
+
+
+
+Les guillemets ne sont pas les seuls caractères pouvant être échappés dans une chaîne. 
+Il y a deux raisons d'utiliser des caractères d'échappement:
+
+     Pour vous permettre d'utiliser des caractères que vous ne pourrez peut-être pas taper autrement, comme un retour chariot.
+     Pour vous permettre de représenter plusieurs guillemets dans une chaîne sans que JavaScript n'interprète mal ce que vous voulez dire.
+
+Nous l'avons appris dans le défi précédent.
+
+Sortie de code
+
+\'	simple citation
+
+\"	double citation
+
+\\ barre oblique inverse
+
+\ n nouvelle ligne
+
+\ r retour chariot
+
+\ t onglet
+
+\ b limite de mot
+
+\ f form feed
+
+
+
+Notez que la barre oblique inverse elle-même doit être échappée afin de s'afficher comme une barre oblique inverse.

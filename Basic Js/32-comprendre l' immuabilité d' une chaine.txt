@@ -1,0 +1,22 @@
+// Setup
+var myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+
+--------------cour------------------------
+
+
+En JavaScript, les Stringvaleurs sont immuables , ce qui signifie qu'elles ne peuvent pas être modifiées une fois créées.
+
+Par exemple, le code suivant:
+
+var myStr = "Bob";
+myStr[0] = "J";
+
+ne peut pas changer la valeur de myStren "Job", car le contenu de myStrne peut pas être modifié. Notez que cela ne que cela ne pas signifie myStrpeut pas être modifié, mais simplement que les caractères individuels d'une chaîne littérale ne peuvent pas être modifiés. La seule façon de changer myStrserait de lui attribuer une nouvelle chaîne, comme ceci:
+
+var myStr = "Bob";
+myStr = "Job";
+

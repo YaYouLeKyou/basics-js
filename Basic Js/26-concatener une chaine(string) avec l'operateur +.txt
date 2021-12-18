@@ -1,0 +1,19 @@
+var myStr = "This is the start. "+"This is the end."; // Change this line
+
+------------cour--------------------
+
+En JavaScript, lorsque l'opérateur + est utilisé avec une valeur String, il est appelé l'opérateur de concaténation. Vous pouvez créer une nouvelle chaîne à partir d'autres chaînes en les concaténant ensemble.
+
+Exemple
+
+«Je m'appelle Alan» + «Je concatène».
+
+Remarque
+
+Attention aux espaces. La concaténation n'ajoute pas d'espaces entre les chaînes concaténées, vous devrez donc les ajouter vous-même.
+
+Exemple:
+
+var ourStr = "Je viens en premier." + "Je viens en second.";
+
+// ourStr est "Je viens en premier. Je viens en second."

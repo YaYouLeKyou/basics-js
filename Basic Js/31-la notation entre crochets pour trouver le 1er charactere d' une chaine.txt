@@ -1,0 +1,38 @@
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+--------------cour-----------------------
+
+
+
+La notation entre crochets est un moyen d'obtenir un caractère à un endroit spécifique d' indexune chaîne.
+
+La plupart des langages de programmation modernes, comme JavaScript, ne commencent pas à compter à 1 comme le font les humains. Ils commencent à 0. Ceci est appelé basée zéro indexation sur .
+
+Par exemple, le caractère à l'index 0 dans le mot «Charles» est «C». Donc, si var firstName = "Charles", vous pouvez obtenir la valeur de la première lettre de la chaîne en utilisant firstName[0].
+
+Exemple:
+
+var firstName = "Charles";
+var firstLetter = firstName[0]; // firstLetter is "C"
+
+Utilisez la notation entre crochets pour trouver le premier caractère de la lastNamevariable et l'attribuer firstLetterOfLastName.
+
+Hint: Try looking at the example above if you get stuck.
+Passed
+
+The firstLetterOfLastName variable should have the value of L.
+Passed
+
+You should use bracket notation.
+1
+2
+3
+4
+5
+6
+

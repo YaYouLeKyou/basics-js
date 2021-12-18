@@ -1,0 +1,35 @@
+// Setup
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+
+// Only change code below this line
+var myData = myArray[2][1];
+console.log(myData)//8
+
+-------------cour---------------------------
+
+
+
+Une façon de penser à un multidimensionnel tableau est comme un tableau de tableaux . 
+Lorsque vous utilisez des crochets pour accéder à votre tableau, le premier jeu de crochets 
+fait référence aux entrées du tableau le plus à l'extérieur (le premier niveau), 
+et chaque paire supplémentaire de crochets fait référence au niveau suivant d'entrées à l'intérieur.
+
+Exemple
+
+var arr = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [[10,11,12], 13, 14]
+];
+arr[3]; // equals [[10,11,12], 13, 14]
+arr[3][0]; // equals [10,11,12]
+arr[3][0][1]; // equals 11
+
+Remarque
+Il ne devrait y avoir aucun espace entre le nom du tableau et les crochets, 
+comme array [0][0]et même cela array [0] [0]n'est pas autorisé. Bien que JavaScript soit capable de traiter cela correctement, 
+cela peut dérouter les autres programmeurs qui lisent votre code.
+
+
+

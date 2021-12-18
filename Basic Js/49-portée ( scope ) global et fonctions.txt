@@ -1,0 +1,32 @@
+// Declare the myGlobal variable below this line
+var myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+-----------------cour--------------------------
+
+
+
+En JavaScript, la portée fait référence à la visibilité des variables. 
+Les variables définies en dehors d'un bloc fonctionnel ont une globale portée . 
+Cela signifie qu'ils peuvent être vus partout dans votre code JavaScript.
+
+Les variables qui sont utilisées sans le varmot clé sont automatiquement créées dans la globalportée. 
+Cela peut créer des conséquences inattendues ailleurs dans votre code ou lors de la réexécution d'une fonction. 
+Vous devez toujours déclarer vos variables avec var.

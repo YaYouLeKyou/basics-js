@@ -1,0 +1,29 @@
+// Only change code below this line
+
+var remainder=11%3;
+
+------------------cour----------------------
+L'opérateur de reste% donne le reste de la division de deux nombres.
+
+Exemple
+
+     5% 2 = 1 car
+
+     Math.floor (5/2) = 2 (Quotient)
+
+     2 * 2 = 4
+
+     5-4 = 1 (reste)
+
+Usage
+
+En mathématiques, un nombre peut être vérifié comme étant pair ou impair en vérifiant le reste de la division du nombre par 2.
+
+     17% 2 = 1 (17 est impair)
+
+     48% 2 = 0 (48 est pair)
+
+Remarque
+
+L'opérateur de reste est parfois appelé à tort l'opérateur "module".
+Il est très similaire au module, mais ne fonctionne pas correctement avec des nombres négatifs.

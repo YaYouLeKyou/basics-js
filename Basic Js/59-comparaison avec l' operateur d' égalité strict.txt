@@ -1,0 +1,28 @@
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
+-----------------cour----------------------
+
+
+
+L'égalité stricte ( ===) est l'équivalent de l'opérateur d'égalité ( ==). 
+Cependant, contrairement à l'opérateur d'égalité, qui tente de convertir les deux valeurs comparées à un type commun, 
+l'opérateur d'égalité stricte n'effectue pas de conversion de type.
+
+Si les valeurs comparées ont des types différents, elles sont considérées comme inégales et l'opérateur d'égalité stricte retournera false.
+
+Exemples
+
+3 ===  3   // true
+3 === '3'  // false
+
+Dans le deuxième exemple, 3est un Numbertype et '3'est un Stringtype.
+
+

@@ -1,0 +1,17 @@
+function functionWithArgs(a, b){
+    console.log(a + b);
+}
+functionWithArgs(1, 2);
+functionWithArgs(7, 9);
+
+-------------------cour-----------------
+
+Les paramètres sont des variables qui agissent comme des espaces réservés pour les valeurs qui doivent être entrées dans une fonction lorsqu'elle est appelée. Lorsqu'une fonction est définie, elle est généralement définie avec un ou plusieurs paramètres. Les valeurs réelles qui sont entrées (ou "passées" ) dans une fonction lorsqu'elle est appelée sont appelées arguments .
+
+Voici une fonction avec deux paramètres, param1et param2:
+
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+
+Ensuite, nous pouvons appeler testFun: testFun("Hello", "World");Nous avons passé deux arguments, "Hello"et "World". À l'intérieur de la fonction, param1sera égal à "Hello" et param2égal à "World". Notez que vous pourriez appeler à testFunnouveau avec des arguments différents et les paramètres prendraient la valeur des nouveaux arguments.

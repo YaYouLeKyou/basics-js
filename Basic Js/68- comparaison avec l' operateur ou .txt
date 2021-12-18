@@ -1,0 +1,40 @@
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+
+----------------cour----------------
+
+
+
+L' opérateur ou ( ||) renvoie true si l'un des opérandes est true. Sinon, il revient false.
+
+L'opérateur est composé de deux symboles de pipes: ( ||). Cela se trouve généralement entre vos touches Retour arrière et Entrée.
+
+Le schéma ci-dessous devrait vous sembler familier à partir des waypoints précédents:
+
+if (num > 10) {
+  return "No";
+}
+if (num < 5) {
+  return "No";
+}
+return "Yes";
+
+renverra "Oui" uniquement si numest compris entre 5et 10(5 et 10 inclus). La même logique peut s'écrire:
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+

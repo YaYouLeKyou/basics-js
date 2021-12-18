@@ -1,0 +1,22 @@
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+var removedFromMyArray = myArray.pop();
+
+console.log(myArray)
+
+------------------------cour-------------------------
+
+
+Une autre façon de modifier les données d'un tableau consiste à utiliser la .pop()fonction.
+
+.pop()est utilisé pour "sauter" une valeur à la fin d'un tableau. Nous pouvons stocker cette valeur "popped off" en l'associant à une variable. En d'autres termes, .pop()supprime le dernier élément d'un tableau et renvoie cet élément.
+
+Tout type d'entrée peut être "sauté" hors d'un tableau - nombres, chaînes, même tableaux imbriqués.
+
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+

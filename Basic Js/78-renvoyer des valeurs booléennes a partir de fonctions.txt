@@ -1,0 +1,34 @@
+function isLess(a, b) {
+  // Only change code below this line
+   
+    return (a < b)
+  
+  // Only change code above this line
+}
+
+isLess(10, 15);
+
+---------------cour-----------------------
+
+
+
+Vous pouvez vous rappeler de la comparaison avec l'opérateur d'égalité que tous les opérateurs 
+de comparaison renvoient un booléen true ou false.
+
+Parfois, les gens utilisent une instruction if / else pour faire une comparaison, comme ceci:
+
+function isEqual(a,b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+Mais il y a une meilleure façon de faire cela. Depuis === renvoie true ou false, 
+nous pouvons renvoyer le résultat de la comparaison:
+
+function isEqual(a,b) {
+  return a === b;
+}
+

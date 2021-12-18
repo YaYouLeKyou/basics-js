@@ -1,0 +1,18 @@
+// Only change code below this line
+var a=5;
+var b=10;
+var c="I am a";
+// Only change code above this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+--------------Cour--------------
+
+Lorsque les variables JavaScript sont déclarées, 
+elles ont une valeur initiale non définie. 
+Si vous effectuez une opération mathématique sur une variable non définie, 
+votre résultat sera NaN, ce qui signifie "Pas un nombre". 
+Si vous concaténez une chaîne avec une variable non définie, 
+vous obtiendrez une chaîne littérale de "non défini".

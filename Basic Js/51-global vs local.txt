@@ -1,0 +1,30 @@
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+
+var outerWear = "sweater"
+
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+--------cour---------------
+
+
+
+Il est possible d'avoir à la fois des locales et globales variables avec le même nom. 
+Lorsque vous faites cela, la localvariable est prioritaire sur la globalvariable.
+
+Dans cet exemple:
+
+var someVar = "Hat";
+function myFun() {
+  var someVar = "Head";
+  return someVar;
+}
+
+La fonction myFunretournera "Head"car la localversion de la variable est présente.

@@ -1,0 +1,42 @@
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if (wasThatTrue) {
+  return "Yes, that was true"
+}
+return "No, that was false"
+
+
+  // Only change code above this line
+
+}
+
+------------------cour------------------
+
+
+
+IfLes instructions sont utilisées pour prendre des décisions dans le code. 
+Le mot clé ifindique à JavaScript d'exécuter le code entre accolades sous certaines conditions, définies entre parenthèses. Ces conditions sont appelées Booleanconditions et elles ne peuvent être que trueou false.
+
+Lorsque la condition est évaluée à true, le programme exécute l'instruction à l'intérieur des accolades. 
+Lorsque la condition booléenne est évaluée false, l'instruction à l'intérieur des accolades ne s'exécutera pas.
+
+Pseudocode
+
+    if (la condition est vraie ) {l'
+      instruction est exécutée
+    } 
+
+Exemple
+
+function test (myCondition) {
+  if (myCondition) {
+     return "It was true";
+  }
+  return "It was false";
+}
+test(true);  // returns "It was true"
+test(false); // returns "It was false"
+
+Quand testest appelé avec une valeur de true, l' ifinstruction évalue myConditionpour voir si elle l'est trueou non. 
+Comme c'est le cas true, la fonction retourne "It was true". Lorsque nous appelons testavec une valeur de false, 
+myConditionis not trueet que l'instruction entre accolades n'est pas exécutée et la fonction retourne "It was false".

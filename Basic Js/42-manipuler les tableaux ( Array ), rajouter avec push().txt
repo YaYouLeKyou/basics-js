@@ -1,0 +1,24 @@
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+
+console.log(myArray)
+// Only change code below this line
+
+----------------cour-----------------
+
+
+Un moyen simple d'ajouter des données à la fin d'un tableau consiste à utiliser la push()fonction.
+
+.push()prend un ou plusieurs paramètres et les "pousse" à la fin du tableau.
+
+Exemples:
+
+var arr1 = [1,2,3];
+arr1.push(4);
+// arr1 is now [1,2,3,4]
+
+var arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+// arr2 now equals ["Stimpson", "J", "cat", ["happy", "joy"]]
+

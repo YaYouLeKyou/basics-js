@@ -1,0 +1,54 @@
+// Setup
+var myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+// Only change code below this line
+
+var secondTree = myPlants[1].list[1]; // Change this line
+
+---------------------------cour---------------------------
+
+
+
+Comme nous l'avons vu dans les exemples précédents, les objets peuvent contenir à la fois des objets imbriqués et des tableaux imbriqués. 
+Similaire à l'accès aux objets imbriqués, la notation entre crochets de tableau peut être chaînée pour accéder aux tableaux imbriqués.
+
+Voici un exemple d'accès à un tableau imbriqué:
+
+var ourPets = [
+  {
+    animalType: "cat",
+    names: [
+      "Meowzer",
+      "Fluffy",
+      "Kit-Cat"
+    ]
+  },
+  {
+    animalType: "dog",
+    names: [
+      "Spot",
+      "Bowser",
+      "Frankie"
+    ]
+  }
+];
+ourPets[0].names[1]; // "Fluffy"
+ourPets[1].names[0]; // "Spot"
+

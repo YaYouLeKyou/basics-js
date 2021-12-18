@@ -1,0 +1,33 @@
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+
+var entreeValue = testObj["an entree"];   // Change this line
+var drinkValue = testObj["the drink"];    // Change this line
+
+-------------------cour-------------------------------
+
+
+
+La deuxième façon d'accéder aux propriétés d'un objet est la notation entre crochets ( []). 
+Si la propriété de l'objet auquel vous essayez d'accéder a un espace dans son nom, vous devrez utiliser la notation entre crochets.
+
+Cependant, vous pouvez toujours utiliser la notation entre crochets sur les propriétés d'objet sans espaces.
+
+Voici un exemple d'utilisation de la notation entre crochets pour lire la propriété d'un objet:
+
+var myObj = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+myObj["Space Name"]; // Kirk
+myObj['More Space']; // Spock
+myObj["NoSpace"];    // USS Enterprise
+
+Notez que les noms de propriétés avec des espaces doivent être entre guillemets (simples ou doubles).

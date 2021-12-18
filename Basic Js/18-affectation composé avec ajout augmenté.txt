@@ -1,0 +1,26 @@
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only change code below this line
+a += 12;
+b += 9 ;
+c += 7;
+
+----------------Cour------------------
+
+En programmation, il est courant d'utiliser des affectations pour modifier le contenu d'une variable. 
+N'oubliez pas que tout ce qui se trouve à droite du signe égal est évalué en premier, nous pouvons donc dire:
+
+maVar = maVar + 5;
+
+pour ajouter 5 à myVar. Comme il s'agit d'un modèle courant, 
+il existe des opérateurs qui effectuent à la fois une opération mathématique et une affectation en une seule étape.
+
+Un de ces opérateurs est l'opérateur + =.
+
+var myVar = 1;
+
+myVar + = 5;
+
+console.log (myVar); // Renvoie 6

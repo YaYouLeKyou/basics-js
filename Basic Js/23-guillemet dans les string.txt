@@ -1,0 +1,15 @@
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+-----------------------------cour-----------------------
+
+Lorsque vous définissez une chaîne, vous devez commencer et terminer par un guillemet simple ou double. 
+Que se passe-t-il lorsque vous avez besoin d'un guillemet littéral: "ou 'à l'intérieur de votre chaîne?
+
+En JavaScript, vous pouvez éviter qu'un devis ne le considère comme un guillemet de fin de chaîne en plaçant une barre oblique inverse (\) devant le guillemet.
+
+var sampleStr = "Alan a dit, \" Peter apprend JavaScript \ ".";
+
+Cela signale à JavaScript que la citation suivante n'est pas la fin de la chaîne, 
+mais devrait plutôt apparaître à l'intérieur de la chaîne. Donc, si vous imprimiez ceci sur la console, vous obtiendrez:
+
+Alan a dit: "Peter apprend JavaScript".

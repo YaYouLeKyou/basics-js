@@ -1,0 +1,38 @@
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >=25 ) {
+    
+      return "Yes";
+    }
+  
+
+  // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(10);
+
+---------------------cour-----------------------
+
+
+
+Parfois, vous devrez tester plus d'une chose à la fois. 
+L' operateur logique ( &&) renvoie true si et seulement si les opérandes à gauche et à droite de celui-ci sont vrais.
+
+Le même effet pourrait être obtenu en imbriquant une instruction if dans une autre si:
+
+if (num > 5) {
+  if (num < 10) {
+    return "Yes";
+  }
+}
+return "No";
+
+renverra "Oui" uniquement si numest supérieur 5et inférieur à 10. La même logique peut s'écrire:
+
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+

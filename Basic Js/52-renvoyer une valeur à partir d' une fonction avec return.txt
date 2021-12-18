@@ -1,0 +1,19 @@
+function timesFive(a) {
+    return a*5;
+}
+var reponse = timesFive(5);
+console.log(reponse)
+
+-----------------cour---------------
+
+
+Nous pouvons passer des valeurs dans une fonction avec des arguments . Vous pouvez utiliser une returninstruction pour renvoyer une valeur hors d'une fonction.
+
+Exemple
+
+function plusThree(num) {
+  return num + 3;
+}
+var answer = plusThree(5); // 8
+
+plusThreeprend un argument pour numet renvoie une valeur égale à num + 3.

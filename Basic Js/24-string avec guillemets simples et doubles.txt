@@ -1,0 +1,33 @@
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+---------------cour-----------------------------
+
+Les valeurs de chaîne en JavaScript peuvent être écrites avec des guillemets simples ou doubles,
+ à condition que vous commenciez et vous terminiez par le même type de guillemet. 
+Contrairement à certains autres langages de programmation, 
+les guillemets simples et doubles fonctionnent de la même manière en JavaScript.
+
+
+doubleQuoteStr = "Ceci est une chaîne";
+
+singleQuoteStr = 'Ceci est également une chaîne';
+
+
+La raison pour laquelle vous voudrez peut-être utiliser un type de guillemet par rapport à l'autre est si vous souhaitez utiliser les deux dans une chaîne. 
+Cela peut se produire si vous souhaitez enregistrer une conversation dans une chaîne et la placer entre guillemets. 
+Une autre utilisation serait d'enregistrer une balise <a> avec divers attributs entre guillemets, le tout dans une chaîne.
+
+
+conversation = 'Finn s'exclame à Jake, "Algébrique!"';
+
+Cependant, cela devient un problème si vous devez utiliser les guillemets les plus externes. 
+N'oubliez pas qu'une chaîne a le même type de guillemets au début et à la fin. 
+Mais si vous avez la même citation quelque part au milieu, la chaîne s'arrêtera tôt et générera une erreur.
+
+goodStr = 'Jake demande à Finn, "Hé, partons à l \' aventure?" ';
+
+badStr = 'Finn répond: "Allons-y!"'; // Lève une erreur
+
+Dans le goodStr ci-dessus, vous pouvez utiliser les deux guillemets en toute sécurité en utilisant la barre oblique inverse \ comme caractère d'échappement. 
+Remarque
+La barre oblique inverse \ ne doit pas être confondue avec la barre oblique /. Ils ne font pas la même chose.

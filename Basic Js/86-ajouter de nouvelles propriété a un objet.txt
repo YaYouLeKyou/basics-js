@@ -1,0 +1,40 @@
+// Setup
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.bark="woof"
+
+// Only change code below this line
+
+-----------------cour----------------------
+
+
+
+Vous pouvez ajouter de nouvelles propriétés aux objets JavaScript existants de la même manière que vous les modifieriez.
+
+Voici comment nous ajouterions une "bark"propriété à ourDog:
+
+ourDog.bark = "bow-wow";
+
+ou
+
+ourDog["bark"] = "bow-wow";
+
+Maintenant, lorsque nous évaluerons ourDog.bark, nous obtiendrons son aboiement, "bow-wow".
+
+Exemple:
+
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.bark = "bow-wow";
+
+
+

@@ -1,0 +1,16 @@
+function welcomeToBooleans() {
+
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
+-------------cour--------------------
+
+
+Un autre type de données est le booléen . Booleansne peut être que l'une des deux valeurs suivantes: trueou false. Ce sont essentiellement de petits interrupteurs marche-arrêt, où trueest «on» et false«off». Ces deux états sont mutuellement exclusifs.
+
+Les note
+Booleanvaleurs de ne sont jamais écrites avec des guillemets. Les strings "true"et "false"ne sont pas Booleanet n'ont pas de signification particulière en JavaScript.
